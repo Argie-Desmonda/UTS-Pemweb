@@ -1,0 +1,163 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: #e9dbc6;
+  background-color: #553d3a;
+}
+
+body {
+  background-color: #d9d9d9;
+}
+
+#headerLogo {
+  width: 80px;
+  height: 80px;
+  margin: 10px 40px 10px 10px;
+  border-radius: 50%;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  background-color: #ff0000;
+}
+
+.sidebar {
+  display: flex;
+  width: 15%;
+  height: auto;
+  justify-content: center;
+  padding-top: 20px;
+  background-color: #c09061;
+}
+
+.navbar {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #e9dbc6;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 20px;
+}
+
+li a:hover {
+  background: #553d3a;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  background-color: #e8c48e;
+  color: #553d3a;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  margin: 0px 20px 0px 0px;
+  color: #553d3a;
+}
+
+.formTitleContainer {
+  display: flex;
+  width: fit-content;
+  border-radius: 0px 50px 50px 0px;
+  margin: 20px 0px 0px 0px;
+  padding: 10px 30px 10px 20px;
+  background-color: #e9dbc6;
+}
+
+#formDesc {
+  font-size: larger;
+}
+
+form {
+  width: 100%;
+}
+
+.formSexContainer {
+  display: flex;
+  margin: 5px 0px 10px 0px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 30%;
+  padding: 40px;
+  margin: 30px 10px 0px 0px;
+  background: #e9dbc6;
+}
+
+input {
+  width: 100%;
+  margin: 0px 5px 10px 0px;
+}
+
+#laki-laki,
+#perempuan {
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+#tglLahir {
+  margin: 10px 0px 20px 0px;
+}
+
+#alamat {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  background-color: #e9dbc6;
+  color: #553d3a;
+  margin: 15px 0px 0px 0px;
+  padding: 10px 0 10px 0px;
+  border-radius: 20px;
+  border-width: 1px;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #553d3a;
+  color: #e9dbc6;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(99, 99, 99);
+}
+
+.footerText {
+  font-weight: bold;
+}
